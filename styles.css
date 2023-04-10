@@ -15,9 +15,13 @@ body{
     font-size: 20px;
 }
 
+.nav-link:hover{
+    color:#FF9900;
+}
+
 
 .top_container{
-   background-color: #FF6000;
+   background-color: #FF9900;
    padding: 100px;
    text-align: center;
    border-top: dashed;
@@ -31,20 +35,23 @@ body{
 }
 
 .middle_container{
-    padding: 500px;
+    padding: 150px 50px 200px 50px;
     background-color: #454545;
-    top: 100px;
     font-family: 'Courier New', Courier, monospace;
-    color: #FF6000;
-    text-align: left;
-    
+    color: #FF9900;
+}
 
-    
+.skill-row{
+    width: 50%;
+    margin: 50px auto 150px auto;
+    text-align: left;
+    line-height: 1;
+    padding-bottom: 50px;
 }
 
 .bottom_container{
     padding: 50px;
-    background-color: #FF6000;
+    background-color: #FF9900;
     top: 600px;
     text-align: center;
     border-style: dashed;
@@ -55,25 +62,38 @@ body{
 }
 
 .wizard-img{
-    width: 25%;
+    width: 10em;
     position: relative;
-    top: 20px;
     float: left;
     margin-right: 10px;
 }
 
-.section-name{
+.assasin-img{
+    width: 25%;
+    position: relative;
+    float: right;
+    margin-left: 10px;
+}
+
+.skills-heading{
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
+    text-align: left;
+}
+
+.aboutme-heading{
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-align: left;
 }
 
 .footer-link{
     color: black;
-    margin: 10px;
+    margin: 15px;
     font-size: 20px;
 }
 
 .footer-link:hover{
-    color:#454545;
-    font-size: 19px;
+    color: black;
+    border-style: dashed;
 }
